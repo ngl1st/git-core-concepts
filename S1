@@ -1,2 +1,4 @@
 mgmt_ip: 10.0.0.1
 # Some comments
+ports:
+ 1: [20]
