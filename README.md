@@ -5,8 +5,9 @@
 - `git status` - see the state of files in working tree, staging area vs latest commit in git history
 - `git add` - move file(s) to the staging area
 - `git log` - view the git history / git commit graph
+- `git log -p` - view the git history + diff between commits
 - `git diff` - diff of working tree and staging area
-- `git diff` --cached - diff of staging area and latest commit
+- `git diff --staged` - diff of staging area and latest commit
 - `git rm` - remove a file from the working tree and the staging area
 - `git checkout -- filename` - retrieve a file from the staging area into the working tree
 - `git reset HEAD filename` - retrieve a file from the latest commit into the staging area
